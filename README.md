@@ -59,7 +59,7 @@ When running rqt for the first time, the window will be blank. **No worries**; j
 
 ![rqt](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/f8df8548-5cb5-4980-b632-0429fd3a58e3)
 
-#Spawn Service
+# Spawn Service
 
 Use rqt to call the /spawn service. /spawn will create another turtle in the turtlesim window.
 
@@ -79,9 +79,9 @@ call the service by clicking the **Call** button
 
 # Set_pen service
 
-Give turtle1 a unique pen using the /set_pen service
+Give turtle1 a unique pen using the > /set_pen service
 
-Set the color of the pen turtle1, and the width thickness of the line.
+Set the color of the pen turtle1 and the width thickness of the line.
 
 ![image](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/7ac2c253-0b3b-478b-8322-c9208b18286e)
 
