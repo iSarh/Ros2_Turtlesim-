@@ -47,5 +47,41 @@ ros2 run turtlesim turtle_teleop_key
 
 https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/3204707b-1b19-446f-a0e3-6d003afa4e1f
 
+#  Install rqt
 
+Open a new terminal 
+
+```bash
+source /opt/ros/foxy/setup.bash
+rqt
+````
+When running rqt for the first time, the window will be blank. **No worries**; just select **Plugins > Services > Service Caller** from the menu bar at the top.
+
+![rqt](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/f8df8548-5cb5-4980-b632-0429fd3a58e3)
+
+#Spawn Service
+
+Use rqt to call the /spawn service. /spawn will create another turtle in the turtlesim window.
+
+![Screenshot 2024-07-04 160348](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/f9296835-c4c0-49a5-bd06-4ae3c164fb91)
+
+
+Give the new turtle a unique name, like turtle2, by double-clicking between the empty single quotes in the **expression column > name string** 
+
+Next enter some valid coordinates at which to spawn the new turtle, like x = 1.0 and y = 1.0.
+
+![image](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/7696fa1e-03ff-4a38-bbe9-1f84f8561642)
+
+
+call the service by clicking the **Call** button 
+
+![image](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/47468c2f-6139-48fd-af53-f7cb68902ea0)
+
+# Set_pen service
+
+Give turtle1 a unique pen using the /set_pen service
+
+Set the color of the pen turtle1, and the width thickness of the line.
+
+![image](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/7ac2c253-0b3b-478b-8322-c9208b18286e)
 
