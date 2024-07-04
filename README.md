@@ -43,7 +43,7 @@ Now you will run a new node to control the turtle in the first node:
 ```bash
 ros2 run turtlesim turtle_teleop_key
 ```
-**Use the arrow keys on your keyboard to control the turtle. **
+**Use the arrow keys on your keyboard to control the turtle.**
 
 ![contrlTurtle](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/fbeddfc1-a0b6-4fbb-ac03-86406e994d18)
 
