@@ -45,7 +45,8 @@ ros2 run turtlesim turtle_teleop_key
 ```
 **Use the arrow keys on your keyboard to control the turtle. **
 
-https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/3204707b-1b19-446f-a0e3-6d003afa4e1f
+![Uploading contrlTurtle.gif…]()
+
 
 #  Install rqt
 
@@ -100,7 +101,7 @@ In a new terminal, source ROS 2, and run:
 source /opt/ros/foxy/setup.bash
 ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle2/cmd_vel
 ````
-
 Now, you can move turtle2 when this terminal is active, and turtle1 when the other terminal running turtle_teleop_key is active.
 
 
+![Remappin](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/00c1527f-590a-4238-81b9-72fb82361f48)
