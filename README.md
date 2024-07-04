@@ -83,5 +83,9 @@ Give turtle1 a unique pen using the > /set_pen service
 
 Set the color of the pen turtle1 and the width thickness of the line.
 
+**Don’t forget to call the service after updating the values**
+
+return to the terminal where > turtle_teleop_key is running and press the arrow keys, you will see turtle1’s pen has changed.
+
 ![image](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/7ac2c253-0b3b-478b-8322-c9208b18286e)
 
