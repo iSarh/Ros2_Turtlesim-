@@ -79,7 +79,7 @@ call the service by clicking the **Call** button
 
 # Set_pen service
 
-Give turtle1 a unique pen using the > /set_pen service
+Give turtle1 a unique pen using the >/set_pen service
 
 Set the color of the pen turtle1 and the width thickness of the line.
 
