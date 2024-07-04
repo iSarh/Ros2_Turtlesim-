@@ -61,7 +61,7 @@ When running rqt for the first time, the window will be blank. **No worries**; j
 
 # Spawn Service
 
-Use rqt to call the /spawn service. /spawn will create another turtle in the turtlesim window.
+Use rqt to call the `/spawn` service. `/spawn` will create another turtle in the turtlesim window.
 
 ![Screenshot 2024-07-04 160348](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/f9296835-c4c0-49a5-bd06-4ae3c164fb91)
 
@@ -79,13 +79,13 @@ call the service by clicking the **Call** button
 
 # Set_pen service
 
-Give turtle1 a unique pen using the >/set_pen service
+Give turtle1 a unique pen using the `/set_pen service`
 
 Set the color of the pen turtle1 and the width thickness of the line.
 
 **Don’t forget to call the service after updating the values**
 
-return to the terminal where > turtle_teleop_key is running and press the arrow keys, you will see turtle1’s pen has changed.
+return to the terminal where `turtle_teleop_key` is running and press the arrow keys, you will see turtle1’s pen has changed.
 
 ![image](https://github.com/iSarh/Ros2_Turtlesim-/assets/63901303/7ac2c253-0b3b-478b-8322-c9208b18286e)
 
